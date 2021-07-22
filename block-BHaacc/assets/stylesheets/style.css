@@ -1,0 +1,399 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+
+*,
+*::before
+*::after {
+	box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-col {
+	display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+	flex-direction: column;
+}
+.flex-start {
+	display: flex;
+	justify-content: start;
+	/* vertical-align:middle; */
+}
+.flex-aic {
+	display: flex;
+	align-items: center;
+	align-self: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+.wrapper {
+	width: 950px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+.icons a,i {
+	font-size: 19px;
+	color: #fff;
+	margin-right: 18px;
+	text-decoration: none;
+	text-transform: capitalize;
+	vertical-align:middle ;
+}
+.brand a {
+	font-size: 32px;
+	color: #fff;
+	font-weight: 600;
+	margin-right: 52px
+}
+
+.header {
+	background:linear-gradient(to right, rgba(64,132,212,0.8),rgba(140,244,146,0.8)), url(../media/home-bg.jpg) no-repeat 50% 50%;
+	background-size:cover ;
+}
+.nav {
+	padding: 24px 0;
+}
+.col-1-1 {
+	width: 50%;
+	padding-top: 64px ;
+	padding-bottom: 94px;
+}
+.col-1-2 {
+	width:50%;
+	padding-top: 64px ;
+	padding-bottom: 94px;
+}
+.col-1-1 h1 {
+	font-size: 42px;
+	color: #fff;
+	font-weight: 800;
+	margin: 22px 0;
+	line-height: 1;
+}
+.col-1-1 h2 {
+	font-size: 14px;
+	color: #fff;
+	/* margin: 7px 0; */
+}
+.btn-transparent {
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize;
+	width: 98px;
+	height: 24px;
+	border-radius: 28px;
+	color: #fff;
+	padding: 7px;
+	border: 2px solid#fff;
+	margin-right: 12px;
+}
+.btn {
+	width: 98px;
+	height: 24px;
+	border-radius: 28px;
+	background-color: crimson;
+	color: #fff;
+	display: inline-block;
+	padding: 7px;
+}
+.btn1 {
+	width: 98px;
+	height: 18px;
+	border-radius: 28px;
+	background-color: #EFEFEF;
+	text-transform: capitalize;
+	color: #000;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 7px;
+	margin-right: 12px;
+}
+.section2 {
+	margin-top: 80px;
+}
+.col-2-1 {
+	width: 70%;
+
+}
+.col-2-1-intro {
+	width: 60%;
+}
+.col-2-2-speciality {
+	width: 27%;
+	margin-right: 36px;
+
+}
+.col-2-2 {
+	width: 30%;
+
+}
+.intro-section img {
+	width: 100%;
+}
+.intro-section h4 {
+	color: #000;
+	font-size: 32px;
+	font-weight: 800;
+	font-family: sans-serif;
+
+}
+.block {
+	width: 24px;
+	height: 24px;
+	color: rgb(29, 28, 28);
+}
+p {
+	font-size: 14px;
+	color: rgb(37, 36, 36);
+	line-height: 1.6;
+	margin: 9px 0;
+
+}
+
+.line-photog {
+	width: 90%;
+	height: 2px;
+    background-color: #000;
+
+}
+.line-wd {
+	width: 85%;
+	height: 2px;
+    background-color: #000;
+
+}
+.line-cms {
+	width: 70%;
+	height: 2px;
+    background-color: #000;
+
+}
+.line-cm {
+	width: 75%;
+	height: 2px;
+    background-color: #000;
+
+}
+.speciality {
+	padding: 12px;
+}
+.article h4 {
+	color: crimson;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.article h5 {
+	color: #000;
+	font-size: 21px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.article-img {
+	width: 50%;
+}
+.article img {
+	width: 100%;
+}
+.article-text {
+	margin: 24px;
+	width: 50%;
+}
+.our-blog {
+	background-color: #EFEFEF;
+	padding-bottom: 98px;
+}
+.article {
+	background-color: #fff;
+	box-sizing:initial;
+	box-shadow:1px 1px 14px 10px rgb(177, 177, 179) ;
+	width: 45%;
+	/* margin: 23px; */
+	/* display: inline-block; */
+}
+.article-box {
+	margin: 38px 0;
+}
+.our-blog h2 {
+	font-size: 42px;
+	color: #000;
+	font-weight: 600;
+	/* margin-top:62px; */
+	margin-left: 380px;
+	text-transform: capitalize;
+	padding: 36px;
+}
+/* our work */
+.our-work {
+	background-color: #ffff;
+	padding-bottom: 89px;
+}
+.our-work img {
+	width: 25%;
+	margin-right: 12px;
+}
+.our-work h2 {
+	font-size: 42px;
+	color: #000;
+	font-weight: 600;
+	/* margin-top:62px; */
+	margin-left: 380px;
+	text-transform: capitalize;
+	padding: 36px;
+}
+.flex2 {
+	display: flex;
+	justify-content: space-evenly;
+}
+/* contact us */
+.contact-us {
+	background:linear-gradient(to right,#0D75E6,#7EF363);
+	padding-top: 64px;
+	padding-bottom: 180px;
+}
+.box {
+	width: 48%;
+	height: 72px;
+	background-color: #fff;
+	margin-right: 22px;
+	margin-bottom: 22px;
+	border-radius: 8px;
+}
+.circle {
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	
+}
+.big-box {
+	width: 97%;
+	height: 55%;
+	background-color: #fff;
+	border-radius: 8px;
+	margin-bottom: 12px;
+}
+.contact-us h2 {
+	color: #fff;
+	font-size: 42px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-left: 189px;
+}
+/* footer */
+.footer {
+	background: linear-gradient(to right , #424242,#060606);
+	padding:42px 0;
+}
+.footer h4 {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.footer h3 {
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 17px;
+	font-weight: 400;
+}
+.footer p {
+	color: #fff;
+	font-size: 14px;
+    margin: 12px 0;
+}
+address {
+	color: #fff;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 600px;
+
+}
+.hydro , .company, .services,.find-us {
+	margin: 14px;
+}
+.nav-footer {
+	margin: 24px;
+}
+.nav-footer h3 i {
+	color: #fff;
+	font-size: 14px;
+	/* margin-left:14px ; */
+	margin-right: 9px;
+}
+.callat {
+	margin-right: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
